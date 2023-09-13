@@ -25,7 +25,7 @@ function onFormSubmit(e) {
     } else if(!$(message).val()){
         alert("Message is required")
     } else {
-        alert("Form Submited")
+        alert("Form Submitted")
         $(email).val("")
         $(subject).val("")
         $(message).val("")
